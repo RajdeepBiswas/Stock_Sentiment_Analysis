@@ -4,7 +4,7 @@ page_type:
 languages:
 - Python
 products:
-- Azure Machine Learning | Azure Blob Storage
+- Azure Machine Learning | Text Analytics
 description: 
 - Scrub the stock related news and do sentiment analysis on top of that.
 urlFragment: "https://github.com/RajdeepBiswas/Stock_Sentiment_Analysis"
