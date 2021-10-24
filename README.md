@@ -83,6 +83,11 @@ Random walk theory believes it is impossible to outperform the market without as
 This is a remarkably interesting project and many people have pursued this as their PhD thesis.  If I do not strike a balance on the data analysis vs predictions vs the different type of features, I would like to expose, it can quickly go off schedule. Also, I need to draw boundaries on the MSE or other performance indicators. Hyperparameter tuning would be part of the project, but I would also like to try out as many models as possible.  
 Another potential issue I am thinking of is Contrarian Investing (Contrarian_investing). This is an investment strategy that is characterized by purchasing and selling in contrast to the prevailing sentiment of the time. A contrarian believes that certain crowd behavior among investors can lead to exploitable mispricing in securities markets. For example, widespread pessimism about a stock can drive a price so low that it overstates the company's risks and understates its prospects for returning to profitability. Identifying and purchasing such distressed stocks, and selling them after the company recovers, can lead to above-average gains. Conversely, widespread optimism can result in unjustifiably high valuations that will eventually lead to drops, when those high expectations do not pan out. Avoiding (or short selling) investments in over-hyped investments reduces the risk of such drops. These general principles can apply whether the investment in question is an individual stock, an industry sector, or an entire market or any other asset class.  
 
+## Assumptions  
+* We have up to date news of the stock before the market opens.  
+* Some of the individual stock news will overlap with the broader market sentiment. In other words, if the market is broadly uncertain some of the individual news will also be pessimistic or negative.  
+* We will have stocks news feed from around the world.  
+
 ## Concluding Remarks
 The project not yet finished.  I want to build out a multi-model system which can generate real time alerts. And integrate news and social media sentiment scoring with the stock prediction. I am enjoying the process and it is turning out to be a very satisfying and humbling option.  
 
